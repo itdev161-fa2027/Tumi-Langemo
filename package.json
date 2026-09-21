@@ -15,10 +15,10 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node server.js",
-  "server": "nodemon server.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "config": "^5.0.1",
