@@ -5,7 +5,14 @@ const app = express();
 
 connectDatabase();
 
+app.use(express.json());
+
 app.get('/', (req, res) => res.send('API running'));
+
+app.post('/api/users', (req, res) => {
+  console.log(req.body);
+  res.send(req.body);
+});
 
 const PORT = 3000;
 
